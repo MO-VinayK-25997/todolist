@@ -35,6 +35,30 @@ a {
   text-decoration: none;
 }
 
+h1 {
+  margin-top: 16px;
+  margin-bottom: 8px;
+  font-size: 2rem;
+  font-weight: 600;
+  line-height: 1.2;
+  color: var(--foreground);
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  word-spacing: 0.1em;
+  text-decoration-color: var(--foreground);
+  text-decoration-thickness: 2px;
+}
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    margin-top: 16px;
+    margin-bottom: 8px;
+}
+
 @media (prefers-color-scheme: dark) {
   html {
     color-scheme: dark;
